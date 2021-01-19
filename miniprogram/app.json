@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/duzi",
+    "pages/image",
+    "pages/video",
+    "pages/index/index",
+    "pages/userConsole/userConsole",
+    "pages/storageConsole/storageConsole",
+    "pages/databaseGuide/databaseGuide",
+    "pages/addFunction/addFunction",
+    "pages/deployFunctions/deployFunctions",
+    "pages/chooseLib/chooseLib",
+    "pages/openapi/openapi",
+    "pages/openapi/serverapi/serverapi",
+    "pages/openapi/callback/callback",
+    "pages/openapi/cloudid/cloudid",
+    "pages/im/im",
+    "pages/im/room/room"
+   
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "段子",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/duzi",
+        "text": "段子",
+        "iconPath": "images/gx1.png",
+        "selectedIconPath": "images/gx.png"
+      },
+      {
+        "pagePath": "pages/image",
+        "text": "图片",
+        "iconPath": "images/tp1.png",
+        "selectedIconPath": "images/tp.png"
+      },
+      {
+        "pagePath": "pages/video",
+        "text": "视频",
+        "iconPath": "images/sp1.png",
+        "selectedIconPath": "images/sp.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json",
+  "style": "v2"
+}
