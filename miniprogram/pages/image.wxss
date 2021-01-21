@@ -22,6 +22,9 @@
 .listItem .itemContent{
   padding:  0 24rpx 24rpx;
 }
+.listItem .itemContent image{
+  width: 100%;
+}
 .itemFooter{
   display: flex ;
 }

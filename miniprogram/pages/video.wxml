@@ -12,8 +12,8 @@
       </view>
       <view class="itemContent">
           {{item.text}}
-          <view>
-            <video src="item.video"></video>
+          <view class="video">
+            <video poster="{{item.thumbnail}}" title="{{item.text}}" src="{{item.video}}"></video>
           </view>
 
       </view>

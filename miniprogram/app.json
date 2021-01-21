@@ -1,8 +1,10 @@
 {
   "pages": [
+   
     "pages/duzi",
     "pages/image",
     "pages/video",
+    "pages/upload/upload",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -16,14 +18,15 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room"
-   
+    
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
     "navigationBarTitleText": "段子",
-    "navigationBarTextStyle": "black"
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh":true
   },
   "tabBar": {
     "list": [
@@ -47,6 +50,7 @@
       }
     ]
   },
+  
   "sitemapLocation": "sitemap.json",
   "style": "v2"
 }

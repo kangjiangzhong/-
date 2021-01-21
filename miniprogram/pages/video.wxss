@@ -22,6 +22,12 @@
 .listItem .itemContent{
   padding:  0 24rpx 24rpx;
 }
+.listItem .itemContent .video{
+  margin-top: 10rpx;
+}
+.listItem .itemContent .video video{
+  width: 100%;
+}
 .itemFooter{
   display: flex ;
 }

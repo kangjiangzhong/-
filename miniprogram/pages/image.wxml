@@ -13,7 +13,7 @@
       </view>
       <view class="itemContent">
           {{item.text}}
-          <image src="item.images"></image>
+          <image mode="widthFix" src="{{item.images}}"></image>
           
       </view>
       <view class="itemFooter">
